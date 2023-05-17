@@ -5,8 +5,11 @@
   "description": "A simple Google Chrome Extension to help you organize your tabs according to similarity.",
   "browser_action": {
     "default_icon": "lifecycle-diagram.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup/popup.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
 }
 
